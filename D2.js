@@ -232,7 +232,7 @@ console.log("Dopo",me);
 */
 
 let arrays = [];
-arrays = ["Giulia","Alessandro","Fabrizio","Stefano"];
+arrays = [1,2,3,4,5,6,7,8,9,10];
 
 console.log(arrays[2]);
 
@@ -240,4 +240,9 @@ console.log(arrays[2]);
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+//PRIMO METODO
+arrays.pop();
+arrays.push(100);
+//SECONDO METODO
+arrays.splice(length-1,1,100);
+console.log(arrays);
