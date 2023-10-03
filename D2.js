@@ -223,8 +223,9 @@ console.log("Dopo",me);
 /* ESERCIZIO 13
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere l'ultimo elemento della proprietà "skills".
 */
-
-/* SCRIVI QUI LA TUA RISPOSTA */
+console.log("Prima",me);
+delete me.skills.pop();
+console.log("Dopo",me);
 
 /* ESERCIZIO 14
   Scrivi del codice per creare un array inizialmente vuoto. Riempilo successivamente con i numeri da 1 a 10.
